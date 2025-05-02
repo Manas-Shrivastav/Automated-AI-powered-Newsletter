@@ -1,4 +1,4 @@
-# 📰 Automated News Digest Generator
+# 📰 Automated Newsletter Generator
 This repository contains a Python-based pipeline to fetch, filter, summarize, and distribute a custom news digest using web scraping, OpenAI GPT models, and Brevo’s email API.
 
 ## 1. Installing Dependencies
