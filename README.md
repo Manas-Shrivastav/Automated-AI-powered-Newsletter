@@ -2,13 +2,16 @@
 This repository contains a Python-based pipeline to fetch, filter, summarize, and distribute a custom news digest using web scraping, OpenAI GPT models, and Brevo’s email API.
 
 ## 1. Installing Dependencies
-1.1. This section installs necessary Python packages like openai, sib_api_v3_sdk, and others which are used throughout the notebook.
+1.1 This section installs necessary Python packages like openai, sib_api_v3_sdk, and others which are used throughout the notebook.
 
 ## 2. Extracting News
-2.1. In this section we are loading Selenium and configuring the environment to run a headless Chromium browser.
-2.2. This also includes code to create a DataFrame using pandas and fetching content using Selenium, aiming to structure the scraped data for further processing.
-2.3. There are a set of key words/phrases which are passed in the list named queries. These are used to fetch the news articles from Google News. Top 10 articles are fetched from Google News according to the relevancy of the keyword/phrase.
-2.4. The date column is converted to a standard form by running the function convert_to_datetime.
+2.1 In this section we are loading Selenium and configuring the environment to run a headless Chromium browser.
+
+2.2 This also includes code to create a DataFrame using pandas and fetching content using Selenium, aiming to structure the scraped data for further processing.
+
+2.3 There are a set of key words/phrases which are passed in the list named queries. These are used to fetch the news articles from Google News. Top 10 articles are fetched from Google News according to the relevancy of the keyword/phrase.
+
+2.4 The date column is converted to a standard form by running the function convert_to_datetime.
 
 *This section can be run directly from the section header in Google Colab as it doesn't require any changes unless the list named queries needs to be updated.*
 
